@@ -1,0 +1,16 @@
+{
+  "name": "vordo-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VORDO — Sublimación, estampados y personalizados. Sitio web con catálogo, pedidos por WhatsApp y panel de administrador.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --experimental-sqlite --no-warnings --watch-path=server.js --watch-path=lib server.js",
+    "start": "node --experimental-sqlite --no-warnings server.js",
+    "reset-db": "node --experimental-sqlite --no-warnings lib/reset.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {}
+}
